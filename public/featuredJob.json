@@ -8,7 +8,11 @@
         "location":"Dhake,Bangladesh",
         "salary":"100k-150k",
         "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png"
+        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "jobDesc":"Data engineers implement methods to improve data reliability and quality. They combine raw information from different sources to create consistent and machine-readable formats. They also develop and test architectures that enable data extraction and transformation for predictive or prescriptive modeling.",
+        "jobRes":"Maintaining and enhancing the performance of existing database programs. Assisting database development teams in designing new database programs that meet the organization's data storage needs. Monitoring databases and related systems to ensure optimized performance.",
+        "education":"Bachelor degree to complete any reputational university.",
+        "experiences":"2-3 year this field."
     },
     {
         "id":"2",
@@ -19,7 +23,11 @@
         "location":"Comilla,Bangladesh",
         "salary":"80k-100k",
         "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png"
+        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "jobDesc":"The Netflix Experience Design Team (XD) is responsible for the design of all Netflix products across web, mobile and television screens. Our team consists of highly specialized Visual Designers, Interaction Designers,",
+        "jobRes":"Quickly establish a core understanding of the business and Netflix Marketing Ops strategy. Lead user research to understand and optimize user flows within various applications built by the team.",
+        "education":"Bachelor of ArtsGraphic/Information Design",
+        "experiences":"5-10 year this field"
     },
     {
         "id":"3",
@@ -30,7 +38,11 @@
         "location":"Chittagong,Bangladesh",
         "salary":"120k-160k",
         "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png"
+        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "jobDesc":"We are looking for a highly motivated mobile engineer specializing in creating exceptional user experiences for our users. You will need to demonstrate strong software engineering skills, excellent interpersonal communication, tenacity, extreme ownership, and the ability to accept and give meaningful technical feedback. You will be responsible for designing architecture, writing correct, robust code, maintaining and improving existing functionality, and shipping new features",
+        "jobRes":"Design, code and maintain mobile user experiences end-to-end. Optimize code for performance, stability, and maintainability. Work with a cross-functional team of hardware engineers, application/UI software engineers, QA/Validation, and designers",
+        "education":"Bachelor’s Degree in Computer Science",
+        "experiences":"Minimum 2 years’ experience in Mobile (iOS/Android) development."
     },
     {
         "id":"4",
@@ -41,7 +53,11 @@
         "location":"Rajshahi,Bangladesh",
         "salary":"100k-120k",
         "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png"
+        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "jobDesc":"Microsoft Azure AI engineers build, manage, and deploy AI solutions that make the most of Azure Cognitive Services and Azure services. Their responsibilities include participating in all phases of AI solutions development—from requirements definition and design to development, deployment, integration, maintenance, performance tuning, and monitoring.",
+        "jobRes":"These professionals work with solution architects to translate their vision and with data scientists, data engineers, IoT specialists, infrastructure administrators, and other software developers to build complete end-to-end AI solutions.",
+        "education":"A Bachelor’s degree.",
+        "experiences":"5-15 year this field"
     },
     {
         "id":"5",
@@ -52,7 +68,11 @@
         "location":"Dhaka,Bangladesh",
         "salary":"60k-100k",
         "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png"
+        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "jobDesc":"Execute optimization to improve product listings, create and maintain A+ content and Brand Storefronts. On-board and create product pages / listings on Amazon and other e-commerce platforms.",
+        "jobRes":"Supervising product listings on 9 Amazon markets. Building product templates in Excel for each market (loading content, pictures, handling device compatibility, dealing with listing issues, keywords, stock/price updates, EBCs, listing reports, bundling/debundling products, managing templates for different product categories).",
+        "education":"HTML editing skills to work with copy",
+        "experiences":"2-5 year this field"
     },
     {
         "id":"6",
@@ -63,6 +83,10 @@
         "location":"Chittagong,Bangladesh",
         "salary":"60k-90k",
         "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png"
+        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "jobDesc":"A decade ago, Rayl learned an important lesson from one of her managers that stays with her to this day: It’s a manager’s job to be distracted in a work environment. “If you’re distracted, then you’re the one who’s trying to catch all the stuff as it comes in, which means that everybody on your team actually has the space that they need to get their work done,” she says.",
+        "jobRes":"Channels Admin: Manage how channels are administered. Compliance Admin: Create and manage legal holds. Roles Admin: Manage who is assigned system roles. Users Admin: Manage non-admins.",
+        "education":"Senior Data Engineer, Data Orchestration",
+        "experiences":"5-10 year this field"
     }
 ]

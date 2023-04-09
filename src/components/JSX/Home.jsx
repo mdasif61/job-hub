@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Css/Home.css";
 import Category from "./Category";
 import FeaturedJob from "./FeaturedJob";
+import Details from "./Details";
 
 const Home = () => {
+    const [display,setDisplay]=useState(false)
   return (
-    <div>
+   !display?<div>
       <div className="flex justify-between items-center mt-[100px]">
         <div className="w-[50%]">
           <h1 style={{ lineHeight: "120px" }} className="font-bold text-8xl">
@@ -37,10 +39,10 @@ const Home = () => {
 
       {/* featured job start */}
       <section>
-        <FeaturedJob></FeaturedJob>
+        <FeaturedJob setDisplay={setDisplay} display={display}></FeaturedJob>
       </section>
       {/* featured job end */}
-    </div>
+    </div>:<Details></Details>
   );
 };
 

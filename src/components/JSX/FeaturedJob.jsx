@@ -3,7 +3,7 @@ import { createJob } from "./Main";
 import JobCart from "./JobCart";
 import "../Css/FeaturedJob.css";
 
-const FeaturedJob = () => {
+const FeaturedJob = ({setDisplay,display}) => {
   const jobDataAll = useContext(createJob);
   const [isLoad, setIsLoad] = useState(false);
   return (
@@ -17,11 +17,21 @@ const FeaturedJob = () => {
       </p>
 
       <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
-        {jobDataAll.slice(0, !isLoad?4:6).map((job) => <JobCart key={job.id} job={job}></JobCart>)}
+        {jobDataAll
+          .slice(0, !isLoad ? 4 : 6)
+          .map((job) =><JobCart
+          key={job.id}
+          job={job}
+          setDisplay={setDisplay}
+          display={display}
+          ></JobCart>)}
       </div>
       <div className="text-center">
-        <button onClick={()=>setIsLoad(!isLoad)} className="btn showBtn my-10">
-          {!isLoad?"See All Jobs":"Less Jobs"}
+        <button
+          onClick={() => setIsLoad(!isLoad)}
+          className="btn showBtn my-10"
+        >
+          {!isLoad ? "See All Jobs" : "Less Jobs"}
         </button>
       </div>
     </>

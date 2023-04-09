@@ -1,7 +1,8 @@
 import React from "react";
 import "../Css/JobCart.css";
+import { Link } from "react-router-dom";
 
-const JobCart = ({ job }) => {
+const JobCart = ({ job,setDisplay,display}) => {
   console.log(job);
   return (
     <div className="border-2 p-10 rounded-lg">
@@ -27,7 +28,7 @@ const JobCart = ({ job }) => {
             <p className="text-bold">{job.salary}</p>
           </div>
         </div>
-        <button className="btn viewBtn mt-4">View Details</button>
+        <button onClick={()=>setDisplay(!display)} className="btn viewBtn mt-4">View Details</button>
       </div>
     </div>
   );
