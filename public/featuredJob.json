@@ -6,7 +6,9 @@
         "tags":"Google LLC",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Dhake,Bangladesh",
-        "salary":"100k-150k"
+        "salary":"100k-150k",
+        "salaryIcon":"../src/assets/Icons/Frame.png",
+        "locationIcon":"../src/assets/Icons/Location Icon.png"
     },
     {
         "id":"2",
@@ -15,7 +17,9 @@
         "tags":"Netflix",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Comilla,Bangladesh",
-        "salary":"80k-100k"
+        "salary":"80k-100k",
+        "salaryIcon":"../src/assets/Icons/Frame.png",
+        "locationIcon":"../src/assets/Icons/Location Icon.png"
     },
     {
         "id":"3",
@@ -24,15 +28,41 @@
         "tags":"Tesla",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Chittagong,Bangladesh",
-        "salary":"120k-160k"
+        "salary":"120k-160k",
+        "salaryIcon":"../src/assets/Icons/Frame.png",
+        "locationIcon":"../src/assets/Icons/Location Icon.png"
     },
     {
         "id":"4",
-        "icon":"../src/assets/Logo/tesla-9 1.png",
-        "title":"Software Engineer",
-        "tags":"Tesla",
+        "icon":"../src/assets/Logo/microsoft.png",
+        "title":"Assistant Engineer",
+        "tags":"Microsoft",
+        "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
+        "location":"Rajshahi,Bangladesh",
+        "salary":"100k-120k",
+        "salaryIcon":"../src/assets/Icons/Frame.png",
+        "locationIcon":"../src/assets/Icons/Location Icon.png"
+    },
+    {
+        "id":"5",
+        "icon":"../src/assets/Logo/amazon.png",
+        "title":"Product Marketing",
+        "tags":"Amazon",
+        "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
+        "location":"Dhaka,Bangladesh",
+        "salary":"60k-100k",
+        "salaryIcon":"../src/assets/Icons/Frame.png",
+        "locationIcon":"../src/assets/Icons/Location Icon.png"
+    },
+    {
+        "id":"6",
+        "icon":"../src/assets/Logo/slack.png",
+        "title":"Assistant Engineer",
+        "tags":"Slack",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Chittagong,Bangladesh",
-        "salary":"120k-160k"
+        "salary":"60k-90k",
+        "salaryIcon":"../src/assets/Icons/Frame.png",
+        "locationIcon":"../src/assets/Icons/Location Icon.png"
     }
 ]

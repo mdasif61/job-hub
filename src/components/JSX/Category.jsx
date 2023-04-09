@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 const Category = () => {
   const [category, setCategory] = useState([]);
-  console.log(category);
   useEffect(() => {
     fetch("categoryList.json")
       .then((res) => res.json())
@@ -18,7 +17,7 @@ const Category = () => {
       </p>
       <div className="flex w-full justify-between my-20">
         {category.map((list) => (
-          <div>
+          <div key={list.title}>
             <img
               className="bg-purple-500 p-4 rounded-lg bg-opacity-10"
               src={list.image}
