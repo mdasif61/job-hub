@@ -1,0 +1,38 @@
+[
+    {   
+        "id":"1",
+        "icon":"../src/assets/Logo/google-1-1 1-1.png",
+        "title":"Technical Database Engineer",
+        "tags":"Google LLC",
+        "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
+        "location":"Dhake,Bangladesh",
+        "salary":"100k-150k"
+    },
+    {
+        "id":"2",
+        "icon":"../src/assets/Logo/netflix-4 1.png",
+        "title":"Senior Product Designer",
+        "tags":"Netflix",
+        "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
+        "location":"Comilla,Bangladesh",
+        "salary":"80k-100k"
+    },
+    {
+        "id":"3",
+        "icon":"../src/assets/Logo/tesla-9 1.png",
+        "title":"Software Engineer",
+        "tags":"Tesla",
+        "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
+        "location":"Chittagong,Bangladesh",
+        "salary":"120k-160k"
+    },
+    {
+        "id":"4",
+        "icon":"../src/assets/Logo/tesla-9 1.png",
+        "title":"Software Engineer",
+        "tags":"Tesla",
+        "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
+        "location":"Chittagong,Bangladesh",
+        "salary":"120k-160k"
+    }
+]

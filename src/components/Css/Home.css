@@ -1,0 +1,8 @@
+.getBtn {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border: none;
+  outline: none;
+  width: 172px;
+  height: 65px;
+  font-size: 20px;
+}

@@ -14,7 +14,7 @@ const Header = () => {
         <NavLink className={({isActive})=>isActive? "text-blue-600 font-blod":""} to="/job">Applied Jobs</NavLink>
         <NavLink className={({isActive})=>isActive? "text-blue-600 font-blod":""} to="/blog">Blog</NavLink>
       </nav>
-      <button className="btn btn-primary">Start Applying</button>
+      <button className="btn startBtn">Start Applying</button>
     </div>
   );
 };

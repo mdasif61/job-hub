@@ -3,11 +3,33 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./components/JSX/Home";
+import Statistics from "./components/JSX/Statistics";
+import ApplyJob from "./components/JSX/ApplyJob";
+import Blog from "./components/JSX/Blog";
+import Main from "./components/JSX/Main";
 
 const router=createBrowserRouter([
     {
       path:"/",
-      element:<Home></Home>
+      element:<Main></Main>,
+      children:[
+        {
+          path:"/",
+          element:<Home></Home>
+        },
+        {
+          path:"/statistics",
+          element:<Statistics></Statistics>
+        },
+        {
+          path:"/job",
+          element:<ApplyJob></ApplyJob>
+        },
+        {
+          path:"/blog",
+          element:<Blog></Blog>
+        }
+      ]
     }
 ]);
 
