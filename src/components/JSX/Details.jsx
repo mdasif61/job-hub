@@ -1,11 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import "../Css/Details.css";
 import { addToStorage } from "../localStorage/storedData";
+import { condition } from "./Main";
 
 const Details = () => {
+
+  const [open,setOpne]=useContext(condition);
+
   const [details, setDetails] = useState({});
-  
+
   const jobs = useLoaderData();
   const { id } = useParams();
   useEffect(() => {
@@ -15,20 +19,12 @@ const Details = () => {
     }
   }, []);
 
-  const storeId=(detail)=>{
-
-    addToStorage(detail.id)
-  }
+  const storeId = (detail) => {
+    addToStorage(detail.id);
+  };
 
   return (
     <div className="my-10">
-      <div className="h-[250px] banner flex justify-between mb-16">
-        <img src="/src/assets/All Images/Vector.png" alt="" />
-        <div className="flex items-center justify-center text-3xl font-bold">
-          <h1>Job Details</h1>
-        </div>
-        <img src="/src/assets/All Images/Vector-1.png" alt="" />
-      </div>
       <div className="flex w-10/12 mx-auto border-2 p-5">
         <div className="w-[60%] mx-5">
           <h1 className="my-4">
@@ -99,7 +95,12 @@ const Details = () => {
                 </div>
               </div>
               <Link to="/job">
-                <button onClick={()=>storeId(details)} className="btn applyBtn mt-8">Apply Now</button>
+                <button
+                  onClick={() => storeId(details)}
+                  className="btn applyBtn mt-8"
+                >
+                  Apply Now
+                </button>
               </Link>
             </div>
           </div>

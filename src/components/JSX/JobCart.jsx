@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../Css/JobCart.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { condition } from "./Main";
 
 
 const JobCart = ({ job}) => {
   const navigate=useNavigate()
+  const [open,setOpen]=useContext(condition);
   return (
     <div className="border-2 p-10 rounded-lg">
       <div>
@@ -32,7 +34,9 @@ const JobCart = ({ job}) => {
         {/* <Link to="/details">
         
         </Link> */}
-        <button onClick={()=>navigate(`/details/${job.id}`)} className="btn viewBtn mt-4">View Details</button>
+        <button onClick={()=>{
+          navigate(`/details/${job.id}`);
+        }} className="btn viewBtn mt-4">View Details</button>
       </div>
     </div>
   );

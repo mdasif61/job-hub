@@ -22,31 +22,9 @@ const ApplyJob = () => {
     setCart(newJob);
   }, []);
 
-  //   useEffect(() => {
-  //     const jobs = getJob();
-  //     let newJob = [];
-  //     for (const id in jobs) {
-  //       const added = apply.find((app) => app.id == id);
-  //       if (added) {
-  //         const newAdd = jobs[id];
-  //         added[id] = newAdd;
-  //         newJob.push(added);
-  //       }
-  //     }
-  //     setCart(newJob);
-  //   }, []);
 
   return (
     <div>
-      <div>
-        <div className="h-[250px] banner flex justify-between mb-16">
-          <img src="/src/assets/All Images/Vector.png" alt="" />
-          <div className="flex items-center justify-center text-3xl font-bold">
-            <h1>Applied Jobs</h1>
-          </div>
-          <img src="/src/assets/All Images/Vector-1.png" alt="" />
-        </div>
-      </div>
       <div className="w-7/12 mx-auto">
         {cart.map((singleCart) => (
           <div className="flex my-5 items-center border p-5">
