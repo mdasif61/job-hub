@@ -17,8 +17,9 @@
         "email":"google@gmail.com",
         "address":"Dhanmondi 32, Dhaka, Bangladesh",
         "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-1.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png"
+        "phoneIcon":"/src/assets/Icons/Frame-2.png",
+        "mailIcon":"/src/assets/Icons/Frame-3.png",
+        "addressIcon":"/src/assets/Icons/Frame-4.png"
     },
     {
         "id":"2",
@@ -38,8 +39,9 @@
         "email":"netflix@gmail.com",
         "address":"Mirpur 32, Mirpur, Bangladesh",
         "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-1.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png"
+        "phoneIcon":"/src/assets/Icons/Frame-2.png",
+        "mailIcon":"/src/assets/Icons/Frame-3.png",
+        "addressIcon":"/src/assets/Icons/Frame-4.png"
     },
     {
         "id":"3",
@@ -59,8 +61,9 @@
         "email":"tesla@gmail.com",
         "address":"Madarbari, Bangladesh",
         "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-1.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png"
+        "phoneIcon":"/src/assets/Icons/Frame-2.png",
+        "mailIcon":"/src/assets/Icons/Frame-3.png",
+        "addressIcon":"/src/assets/Icons/Frame-4.png"
     },
     {
         "id":"4",
@@ -80,8 +83,9 @@
         "email":"microsoft@gmail.com",
         "address":"Rajshahi 11, Bangladesh",
         "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-1.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png"
+        "phoneIcon":"/src/assets/Icons/Frame-2.png",
+        "mailIcon":"/src/assets/Icons/Frame-3.png",
+        "addressIcon":"/src/assets/Icons/Frame-4.png"
     },
     {
         "id":"5",
@@ -101,8 +105,9 @@
         "email":"amazon@gmail.com",
         "address":"Shylat 42, Bangladesh",
         "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-1.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png"
+        "phoneIcon":"/src/assets/Icons/Frame-2.png",
+        "mailIcon":"/src/assets/Icons/Frame-3.png",
+        "addressIcon":"/src/assets/Icons/Frame-4.png"
     },
     {
         "id":"6",
@@ -122,7 +127,8 @@
         "email":"slack@gmail.com",
         "address":"Cox's Bazar 21, Bangladesh",
         "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-1.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png"
+        "phoneIcon":"/src/assets/Icons/Frame-2.png",
+        "mailIcon":"/src/assets/Icons/Frame-3.png",
+        "addressIcon":"/src/assets/Icons/Frame-4.png"
     }
 ]
