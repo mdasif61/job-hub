@@ -4,7 +4,7 @@ import "../Css/Header.css";
 
 const Header = () => {
   return (
-    <div className="flex justify-between py-3 my-5 items-center">
+    <div className="flex justify-between py-3 bg-color my-5 items-center">
       <h1 className="text-3xl font-bold">
         Intelligence<span className="text-orange-600">Hub</span>
       </h1>
