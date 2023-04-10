@@ -3,9 +3,10 @@ import { createJob } from "./Main";
 import JobCart from "./JobCart";
 import "../Css/FeaturedJob.css";
 
-const FeaturedJob = ({setDisplay,display}) => {
+const FeaturedJob = () => {
   const jobDataAll = useContext(createJob);
   const [isLoad, setIsLoad] = useState(false);
+
   return (
     <>
       <h1 className="text-5xl text-center mb-4 font-bold mt-28">
@@ -22,8 +23,6 @@ const FeaturedJob = ({setDisplay,display}) => {
           .map((job) =><JobCart
           key={job.id}
           job={job}
-          setDisplay={setDisplay}
-          display={display}
           ></JobCart>)}
       </div>
       <div className="text-center">

@@ -1,9 +1,10 @@
 import React from "react";
 import "../Css/JobCart.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const JobCart = ({ job,setDisplay,display}) => {
-  console.log(job);
+
+const JobCart = ({ job}) => {
+  const navigate=useNavigate()
   return (
     <div className="border-2 p-10 rounded-lg">
       <div>
@@ -28,7 +29,10 @@ const JobCart = ({ job,setDisplay,display}) => {
             <p className="text-bold">{job.salary}</p>
           </div>
         </div>
-        <button onClick={()=>setDisplay(!display)} className="btn viewBtn mt-4">View Details</button>
+        {/* <Link to="/details">
+        
+        </Link> */}
+        <button onClick={()=>navigate(`/details/${job.id}`)} className="btn viewBtn mt-4">View Details</button>
       </div>
     </div>
   );
