@@ -9,35 +9,36 @@ import Blog from "./components/JSX/Blog";
 import Main from "./components/JSX/Main";
 import Details from "./components/JSX/Details";
 
-const router=createBrowserRouter([
-    {
-      path:"/",
-      element:<Main></Main>,
-      loader:()=>fetch('featuredJob.json'),
-      children:[
-        {
-          path:"/",
-          element:<Home></Home>
-        },
-        {
-          path:"/details/:id",
-          element:<Details></Details>,
-          loader:()=>fetch('featuredJob.json')
-        },
-        {
-          path:"/statistics",
-          element:<Statistics></Statistics>
-        },
-        {
-          path:"/job",
-          element:<ApplyJob></ApplyJob>
-        },
-        {
-          path:"/blog",
-          element:<Blog></Blog>
-        }
-      ]
-    }
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main></Main>,
+    loader: () => fetch("/featuredJob.json"),
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/details/:id",
+        element: <Details></Details>,
+        loader: () => fetch("/featuredJob.json"),
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
+      },
+      {
+        path: "/job",
+        element: <ApplyJob></ApplyJob>,
+        loader: () => fetch("/featuredJob.json"),
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
