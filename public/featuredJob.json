@@ -1,7 +1,7 @@
 [
     {   
         "id":"1",
-        "icon":"https://ibb.co/VNRFNXK",
+        "icon":"https://i.ibb.co/MR6pzJD/google-1-1-1.png",
         "title":"Technical Database Engineer",
         "tags":"Google LLC",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
@@ -23,7 +23,7 @@
     },
     {
         "id":"2",
-        "icon":"https://ibb.co/brWRzNw",
+        "icon":"https://i.ibb.co/yN9ZF1C/netflix-4-1.png",
         "title":"Senior Product Designer",
         "tags":"Netflix",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
@@ -45,14 +45,14 @@
     },
     {
         "id":"3",
-        "icon":"https://ibb.co/QCHXqFf",
+        "icon":"https://i.ibb.co/bmChPwB/tesla-9-1.png",
         "title":"Software Engineer",
         "tags":"Tesla",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Chittagong,Bangladesh",
         "salary":"120k-160k",
-        "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "salaryIcon":"https://i.ibb.co/Ytkr9SQ/Frame.png",
+        "locationIcon":"https://i.ibb.co/3MKn3Kj/Location-Icon.png",
         "jobDesc":"We are looking for a highly motivated mobile engineer specializing in creating exceptional user experiences for our users. You will need to demonstrate strong software engineering skills, excellent interpersonal communication, tenacity, extreme ownership, and the ability to accept and give meaningful technical feedback. You will be responsible for designing architecture, writing correct, robust code, maintaining and improving existing functionality, and shipping new features",
         "jobRes":"Design, code and maintain mobile user experiences end-to-end. Optimize code for performance, stability, and maintainability. Work with a cross-functional team of hardware engineers, application/UI software engineers, QA/Validation, and designers",
         "education":"Bachelor’s Degree in Computer Science",
@@ -60,14 +60,14 @@
         "phone":"01447-131096",
         "email":"tesla@gmail.com",
         "address":"Madarbari, Bangladesh",
-        "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-2.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png",
-        "addressIcon":"/src/assets/Icons/Frame-4.png"
+        "jobIcon":"https://i.ibb.co/YXFCgp6/Frame-1.png",
+        "phoneIcon":"https://i.ibb.co/kSMCh1N/Frame-2.png",
+        "mailIcon":"https://i.ibb.co/B2SVR91/Frame-3.png",
+        "addressIcon":"https://i.ibb.co/chj0TN3/Frame-4.png"
     },
     {
         "id":"4",
-        "icon":"https://ibb.co/XDtPfqT",
+        "icon":"https://i.ibb.co/tD6j1Kf/microsoft.png",
         "title":"Assistant Engineer",
         "tags":"Microsoft",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
@@ -111,7 +111,7 @@
     },
     {
         "id":"6",
-        "icon":"https://ibb.co/sV0S0Cv",
+        "icon":"https://i.ibb.co/9prh9dY/slack.png",
         "title":"Assistant Engineer",
         "tags":"Slack",
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
