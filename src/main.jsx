@@ -8,12 +8,14 @@ import ApplyJob from "./components/JSX/ApplyJob";
 import Blog from "./components/JSX/Blog";
 import Main from "./components/JSX/Main";
 import Details from "./components/JSX/Details";
+import ErrorPage from "./components/JSX/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
     loader: () => fetch("/featuredJob.json"),
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

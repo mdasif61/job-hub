@@ -7,8 +7,8 @@
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Dhake,Bangladesh",
         "salary":"100k-150k",
-        "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "salaryIcon":"https://i.ibb.co/Ytkr9SQ/Frame.png",
+        "locationIcon":"https://i.ibb.co/3MKn3Kj/Location-Icon.png",
         "jobDesc":"Data engineers implement methods to improve data reliability and quality. They combine raw information from different sources to create consistent and machine-readable formats. They also develop and test architectures that enable data extraction and transformation for predictive or prescriptive modeling.",
         "jobRes":"Maintaining and enhancing the performance of existing database programs. Assisting database development teams in designing new database programs that meet the organization's data storage needs. Monitoring databases and related systems to ensure optimized performance.",
         "education":"Bachelor degree to complete any reputational university.",
@@ -16,10 +16,10 @@
         "phone":"01664-434251",
         "email":"google@gmail.com",
         "address":"Dhanmondi 32, Dhaka, Bangladesh",
-        "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-2.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png",
-        "addressIcon":"/src/assets/Icons/Frame-4.png"
+        "jobIcon":"https://i.ibb.co/YXFCgp6/Frame-1.png",
+        "phoneIcon":"https://i.ibb.co/kSMCh1N/Frame-2.png",
+        "mailIcon":"https://i.ibb.co/B2SVR91/Frame-3.png",
+        "addressIcon":"https://i.ibb.co/chj0TN3/Frame-4.png"
     },
     {
         "id":"2",
@@ -29,8 +29,8 @@
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Comilla,Bangladesh",
         "salary":"80k-100k",
-        "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "salaryIcon":"https://i.ibb.co/Ytkr9SQ/Frame.png",
+        "locationIcon":"https://i.ibb.co/3MKn3Kj/Location-Icon.png",
         "jobDesc":"The Netflix Experience Design Team (XD) is responsible for the design of all Netflix products across web, mobile and television screens. Our team consists of highly specialized Visual Designers, Interaction Designers,",
         "jobRes":"Quickly establish a core understanding of the business and Netflix Marketing Ops strategy. Lead user research to understand and optimize user flows within various applications built by the team.",
         "education":"Bachelor of ArtsGraphic/Information Design",
@@ -38,10 +38,10 @@
         "phone":"01379-839123",
         "email":"netflix@gmail.com",
         "address":"Mirpur 32, Mirpur, Bangladesh",
-        "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-2.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png",
-        "addressIcon":"/src/assets/Icons/Frame-4.png"
+        "jobIcon":"https://i.ibb.co/YXFCgp6/Frame-1.png",
+        "phoneIcon":"https://i.ibb.co/kSMCh1N/Frame-2.png",
+        "mailIcon":"https://i.ibb.co/B2SVR91/Frame-3.png",
+        "addressIcon":"https://i.ibb.co/chj0TN3/Frame-4.png"
     },
     {
         "id":"3",
@@ -73,8 +73,8 @@
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Rajshahi,Bangladesh",
         "salary":"100k-120k",
-        "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "salaryIcon":"https://i.ibb.co/Ytkr9SQ/Frame.png",
+        "locationIcon":"https://i.ibb.co/3MKn3Kj/Location-Icon.png",
         "jobDesc":"Microsoft Azure AI engineers build, manage, and deploy AI solutions that make the most of Azure Cognitive Services and Azure services. Their responsibilities include participating in all phases of AI solutions development—from requirements definition and design to development, deployment, integration, maintenance, performance tuning, and monitoring.",
         "jobRes":"These professionals work with solution architects to translate their vision and with data scientists, data engineers, IoT specialists, infrastructure administrators, and other software developers to build complete end-to-end AI solutions.",
         "education":"A Bachelor’s degree.",
@@ -82,10 +82,10 @@
         "phone":"01654-472026",
         "email":"microsoft@gmail.com",
         "address":"Rajshahi 11, Bangladesh",
-        "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-2.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png",
-        "addressIcon":"/src/assets/Icons/Frame-4.png"
+        "jobIcon":"https://i.ibb.co/YXFCgp6/Frame-1.png",
+        "phoneIcon":"https://i.ibb.co/kSMCh1N/Frame-2.png",
+        "mailIcon":"https://i.ibb.co/B2SVR91/Frame-3.png",
+        "addressIcon":"https://i.ibb.co/chj0TN3/Frame-4.png"
     },
     {
         "id":"5",
@@ -95,8 +95,8 @@
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Dhaka,Bangladesh",
         "salary":"60k-100k",
-        "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "salaryIcon":"https://i.ibb.co/Ytkr9SQ/Frame.png",
+        "locationIcon":"https://i.ibb.co/3MKn3Kj/Location-Icon.png",
         "jobDesc":"Execute optimization to improve product listings, create and maintain A+ content and Brand Storefronts. On-board and create product pages / listings on Amazon and other e-commerce platforms.",
         "jobRes":"Supervising product listings on 9 Amazon markets. Building product templates in Excel for each market (loading content, pictures, handling device compatibility, dealing with listing issues, keywords, stock/price updates, EBCs, listing reports, bundling/debundling products, managing templates for different product categories).",
         "education":"HTML editing skills to work with copy",
@@ -104,10 +104,10 @@
         "phone":"01443-873938",
         "email":"amazon@gmail.com",
         "address":"Shylat 42, Bangladesh",
-        "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-2.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png",
-        "addressIcon":"/src/assets/Icons/Frame-4.png"
+        "jobIcon":"https://i.ibb.co/YXFCgp6/Frame-1.png",
+        "phoneIcon":"https://i.ibb.co/kSMCh1N/Frame-2.png",
+        "mailIcon":"https://i.ibb.co/B2SVR91/Frame-3.png",
+        "addressIcon":"https://i.ibb.co/chj0TN3/Frame-4.png"
     },
     {
         "id":"6",
@@ -117,8 +117,8 @@
         "jobTime":{"fullTime":"Fulltime","onTime":"Onsite","remote":"Remote"},
         "location":"Chittagong,Bangladesh",
         "salary":"60k-90k",
-        "salaryIcon":"../src/assets/Icons/Frame.png",
-        "locationIcon":"../src/assets/Icons/Location Icon.png",
+        "salaryIcon":"https://i.ibb.co/Ytkr9SQ/Frame.png",
+        "locationIcon":"https://i.ibb.co/3MKn3Kj/Location-Icon.png",
         "jobDesc":"A decade ago, Rayl learned an important lesson from one of her managers that stays with her to this day: It’s a manager’s job to be distracted in a work environment. “If you’re distracted, then you’re the one who’s trying to catch all the stuff as it comes in, which means that everybody on your team actually has the space that they need to get their work done,” she says.",
         "jobRes":"Channels Admin: Manage how channels are administered. Compliance Admin: Create and manage legal holds. Roles Admin: Manage who is assigned system roles. Users Admin: Manage non-admins.",
         "education":"Senior Data Engineer, Data Orchestration",
@@ -126,9 +126,9 @@
         "phone":"10644-686812",
         "email":"slack@gmail.com",
         "address":"Cox's Bazar 21, Bangladesh",
-        "jobIcon":"/src/assets/Icons/Frame-1.png",
-        "phoneIcon":"/src/assets/Icons/Frame-2.png",
-        "mailIcon":"/src/assets/Icons/Frame-3.png",
-        "addressIcon":"/src/assets/Icons/Frame-4.png"
+        "jobIcon":"https://i.ibb.co/YXFCgp6/Frame-1.png",
+        "phoneIcon":"https://i.ibb.co/kSMCh1N/Frame-2.png",
+        "mailIcon":"https://i.ibb.co/B2SVR91/Frame-3.png",
+        "addressIcon":"https://i.ibb.co/chj0TN3/Frame-4.png"
     }
 ]
