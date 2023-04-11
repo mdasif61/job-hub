@@ -5,9 +5,9 @@ import Banner from "./Banner";
 
 const ApplyJob = () => {
   const [cart, setCart] = useState([]);
+  const [Value, setValue] = useState([]);
   const navigate = useNavigate();
   const showData = useLoaderData();
-  console.log(showData);
 
   useEffect(() => {
     const jobs = getJob();
@@ -23,13 +23,23 @@ const ApplyJob = () => {
     setCart(newJob);
   }, []);
 
+  const filter = (event) => {
+    const fullTime = cart.filter(
+      (fil) => fil.jobTime.fullTime == event.target.value
+    );
+    setCart(fullTime);
+  };
+
   return (
     <div>
       <div>
         <Banner>Applied Jobs</Banner>
       </div>
       <div className="md:w-7/12 flex justify-end w-full mx-auto">
-        <select className="w-32 focus:outline-none border p-2 font-semibold">
+        <select
+          onChange={filter}
+          className="w-32 focus:outline-none border p-2 font-semibold"
+        >
           <option value="filter" disabled selected>
             Filter
           </option>
@@ -40,7 +50,10 @@ const ApplyJob = () => {
       </div>
       <div className="md:w-7/12 w-full mx-auto">
         {cart.map((singleCart) => (
-          <div className="md:flex text-center md:text-left my-5 items-center border p-5">
+          <div
+            key={singleCart.id}
+            className="md:flex text-center md:text-left my-5 items-center border p-5"
+          >
             <div className=" flex items-center justify-center p-5">
               <img className="w-32" src={singleCart.icon} alt="" />
             </div>
