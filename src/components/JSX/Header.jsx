@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <div className="w-full">
-      <div onClick={() => setOpen(!open)} className="md:hidden">
+      <div onClick={() => setOpen(!open)} className="md:hidden mt-4">
         <span>
           {!open ? (
             <Bars3Icon className="h-6 w-6 text-blue-500" />
@@ -19,7 +19,7 @@ const Header = () => {
       </div>
       <div
         className={`md:flex md:static mx-auto w-full absolute ${
-          open ? "top-7 bg-white shadow-xl p-5 z-50" : "hidden"
+          open ? "top-10 bg-white shadow-xl p-5 z-50" : "hidden"
         } top-0 justify-between py-3 bg-color mx-auto items-center`}
       >
         <h1 className={`text-3xl font-bold ${open && "mb-3 border-b-2 pb-3"}`}>
