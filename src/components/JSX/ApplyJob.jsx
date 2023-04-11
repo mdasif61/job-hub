@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getJob } from "../localStorage/storedData";
 import { useLoaderData, useNavigate } from "react-router-dom";
+import Banner from "./Banner";
 
 const ApplyJob = () => {
   const [cart, setCart] = useState([]);
@@ -25,6 +26,9 @@ const ApplyJob = () => {
 
   return (
     <div>
+      <div>
+        <Banner>Applied Jobs</Banner>
+      </div>
       <div className="w-7/12 mx-auto">
         {cart.map((singleCart) => (
           <div className="flex my-5 items-center border p-5">
@@ -47,11 +51,11 @@ const ApplyJob = () => {
                 </h3>
               </div>
               <div className="flex">
-                <div className="flex mr-5">
+                <div className="flex mr-5 items-center">
                   <img className="mr-2" src={singleCart.locationIcon} alt="" />
                   <p className="text-gray-500">{singleCart.location}</p>
                 </div>
-                <div className="flex mr-5">
+                <div className="flex mr-5 items-center">
                   <img className="mr-2" src={singleCart.salaryIcon} alt="" />
                   <p className="text-gray-500">{singleCart.salary}</p>
                 </div>

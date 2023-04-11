@@ -1,25 +1,26 @@
-import React, { useContext } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../Css/Header.css";
-import { condition } from "./Main";
+import { Bars3Icon,XMarkIcon } from '@heroicons/react/24/solid';
 
 const Header = () => {
-  const [open, setOpen] = useContext(condition);
+  const [open,setOpen]=useState(false)
 
   return (
     <div className="w-full">
-      <div className={`relative h-[400px] flex justify-between`}>
-          <img src="/src/assets/All Images/Vector.png" alt="" />
-          <div className="flex items-center h-[450px] justify-center text-3xl font-bold">
-            <h1>Job Details</h1>
-          </div>
-          <img src="/src/assets/All Images/Vector-1.png" alt="" />
+       <div onClick={()=>setOpen(!open)} className="md:hidden">
+          <span>
+          {
+           !open? <Bars3Icon className="h-6 w-6 text-blue-500" />:<XMarkIcon className="h-6 w-6 text-blue-500" />
+          }
+          </span>
         </div>
-      <div className="flex w-[85%] absolute top-0 justify-between py-3 bg-color my-5 items-center">
-        <h1 className="text-3xl font-bold">
+      <div className={`md:flex md:static absolute ${open?"top-7 bg-white shadow-xl p-5 z-50":"hidden"} w-[85%] top-0 justify-between py-3 bg-color mx-auto items-center`}>
+
+        <h1 className={`text-3xl font-bold ${open && "mb-3 border-b-2 pb-3"}`}>
           Intelligence<span className="text-orange-600">Hub</span>
         </h1>
-        <nav className="navLink">
+        <nav className={`navLink ${open?"flex flex-col":""}`}>
           <NavLink
             className={({ isActive }) =>
               isActive ? "text-blue-600 font-blod" : ""
@@ -53,7 +54,7 @@ const Header = () => {
             Blog
           </NavLink>
         </nav>
-        <button className="btn startBtn">Start Applying</button>
+        <button className={`btn ${open? "mt-5 btn":"startBtn"}`}>Start Applying</button>
       </div>
     </div>
   );

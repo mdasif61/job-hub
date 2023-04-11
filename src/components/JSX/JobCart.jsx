@@ -1,12 +1,10 @@
 import React, { useContext } from "react";
 import "../Css/JobCart.css";
 import { useNavigate } from "react-router-dom";
-import { condition } from "./Main";
 
 
 const JobCart = ({ job}) => {
   const navigate=useNavigate()
-  const [open,setOpen]=useContext(condition);
   return (
     <div className="border-2 p-10 rounded-lg">
       <div>

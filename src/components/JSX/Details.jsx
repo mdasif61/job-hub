@@ -2,11 +2,9 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import "../Css/Details.css";
 import { addToStorage } from "../localStorage/storedData";
-import { condition } from "./Main";
+import Banner from "./Banner";
 
 const Details = () => {
-
-  const [open,setOpne]=useContext(condition);
 
   const [details, setDetails] = useState({});
 
@@ -25,6 +23,9 @@ const Details = () => {
 
   return (
     <div className="my-10">
+      <div>
+        <Banner>Job Details</Banner>
+      </div>
       <div className="flex w-10/12 mx-auto border-2 p-5">
         <div className="w-[60%] mx-5">
           <h1 className="my-4">
@@ -94,14 +95,12 @@ const Details = () => {
                   </p>
                 </div>
               </div>
-              <Link to="/job">
-                <button
+              <button
                   onClick={() => storeId(details)}
                   className="btn applyBtn mt-8"
                 >
                   Apply Now
                 </button>
-              </Link>
             </div>
           </div>
         </div>
