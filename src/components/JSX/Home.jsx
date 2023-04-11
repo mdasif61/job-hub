@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "../Css/Home.css";
 import Category from "./Category";
 import FeaturedJob from "./FeaturedJob";
+import man from '../../../public/P3OLGJ1 copy 2.png'
 
 const Home = () => {
-   
   return (
-   <div className="mx-3 md:mx-0">
+    <div className="mx-3 md:mx-0">
       <div className="md:flex justify-between items-center md:mt-[100px] mt-5">
         <div className="md:w-[50%] w-full text-center md:text-left">
           <h1 className="font-bold text-center md:text-left leading-[60px] text-5xl md:text-8xl">
@@ -26,7 +26,7 @@ const Home = () => {
           <button className="btn getBtn mt-8">Get Started</button>
         </div>
         <div className="md:w-[50%] w-[100%] mt-10 md:mt-0 md:bg-transparent flex items-center justify-center">
-          <img src="/src/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
+          <img src={man} alt="" />
         </div>
       </div>
 

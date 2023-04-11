@@ -23,11 +23,20 @@ const ApplyJob = () => {
     setCart(newJob);
   }, []);
 
-
   return (
     <div>
       <div>
         <Banner>Applied Jobs</Banner>
+      </div>
+      <div className="md:w-7/12 flex justify-end w-full mx-auto">
+        <select className="w-32 focus:outline-none border p-2 font-semibold">
+          <option value="filter" disabled selected>
+            Filter
+          </option>
+          <option value="Fulltime">Fulltime</option>
+          <option value="Remote">Remote</option>
+          <option value="Onsite">Onsite</option>
+        </select>
       </div>
       <div className="md:w-7/12 w-full mx-auto">
         {cart.map((singleCart) => (
@@ -63,18 +72,18 @@ const ApplyJob = () => {
             </div>
             <div>
               <Link to="/">
-              <button
-                onClick={() => navigate(`${singleCart.id}`)}
-                style={{
-                  background:
-                    "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)",
-                  border: "none",
-                  outline: "none",
-                }}
-                className="btn"
-              >
-                View Details
-              </button>
+                <button
+                  onClick={() => navigate(`${singleCart.id}`)}
+                  style={{
+                    background:
+                      "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)",
+                    border: "none",
+                    outline: "none",
+                  }}
+                  className="btn"
+                >
+                  View Details
+                </button>
               </Link>
             </div>
           </div>
