@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getJob } from "../localStorage/storedData";
-import { useLoaderData, useNavigate } from "react-router-dom";
+import { Link, useLoaderData, useNavigate } from "react-router-dom";
 import Banner from "./Banner";
 
 const ApplyJob = () => {
@@ -62,8 +62,9 @@ const ApplyJob = () => {
               </div>
             </div>
             <div>
+              <Link to="/">
               <button
-                onClick={() => navigate(`/details/${singleCart.id}`)}
+                onClick={() => navigate(`${singleCart.id}`)}
                 style={{
                   background:
                     "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)",
@@ -74,6 +75,7 @@ const ApplyJob = () => {
               >
                 View Details
               </button>
+              </Link>
             </div>
           </div>
         ))}

@@ -26,8 +26,8 @@ const Details = () => {
       <div>
         <Banner>Job Details</Banner>
       </div>
-      <div className="flex w-10/12 mx-auto border-2 p-5">
-        <div className="w-[60%] mx-5">
+      <div className="md:flex md:w-10/12 w-full mx-auto border-2 md:p-5 p-3">
+        <div className="md:w-[60%] w-full md:mx-5">
           <h1 className="my-4">
             <span className="font-bold">Job Description : </span>{" "}
             {details.jobDesc}
@@ -49,7 +49,7 @@ const Details = () => {
             {details.experiences}
           </h1>
         </div>
-        <div className="w-[40%] mx-5 flex justify-center">
+        <div className="md:w-[40%] w-full md:mx-5 flex justify-center">
           <div className="w-full info p-5 items-center justify-between">
             <h1 className="border-b border-gray-500 w-full font-bold pb-3 text-lg">
               Job Details

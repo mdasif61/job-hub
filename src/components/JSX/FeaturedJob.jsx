@@ -13,25 +13,21 @@ const FeaturedJob = () => {
         Featured Jobs
       </h1>
       <p className="text-center md:text-base text-sm mb-8 text-gray-500">
-        Explore thousands of job opportunities with all the information you
-        need. Its your future
+        The ability to feature your job and receive responses faster is an
+        exclusive benefit for Voices Plus
       </p>
 
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
-        {jobDataAll
-          .slice(0, !isLoad ? 4 : 6)
-          .map((job) =><JobCart
-          key={job.id}
-          job={job}
-          ></JobCart>)}
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mb-5">
+        {jobDataAll.slice(0, !isLoad ? 4 : 6).map((job) => (
+          <JobCart key={job.id} job={job}></JobCart>
+        ))}
       </div>
       <div className="text-center">
-        <button
-          onClick={() => setIsLoad(!isLoad)}
-          className="btn showBtn my-10"
-        >
-          {!isLoad ? "See All Jobs" : "Less Jobs"}
-        </button>
+        <span onClick={() => setIsLoad(!isLoad)} className="text-center">
+          {!isLoad && (
+            <button className="btn showBtn my-10">See All Jobs</button>
+          )}
+        </span>
       </div>
     </>
   );
