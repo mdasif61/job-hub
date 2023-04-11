@@ -5,7 +5,6 @@ import Banner from "./Banner";
 
 const ApplyJob = () => {
   const [cart, setCart] = useState([]);
-  const [Value, setValue] = useState([]);
   const navigate = useNavigate();
   const showData = useLoaderData();
 
