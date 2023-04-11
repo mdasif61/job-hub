@@ -19,7 +19,7 @@ const JobCart = ({ job}) => {
             {job.jobTime.onTime}
           </h1>
         </div>
-        <div className="flex">
+        <div className="md:flex">
           <div className="flex mr-5 my-3">
             <img className="mr-2" src={job.locationIcon} alt="" />
             <p className="text-bold">{job.location}</p>

@@ -16,15 +16,15 @@ const Statistics = () => {
     ]
     return (
         <>
-        <div className='my-10 flex items-center justify-center'>
-        <PieChart width={500} height={500}>
+        <div className=' flex items-center justify-center'>
+        <PieChart width={300} height={300}>
           <Pie
             dataKey="mark"
-            isAnimationActive={false}
+            isAnimationActive={true}
             data={data}
             cx="50%"
             cy="50%"
-            outerRadius={200}
+            outerRadius={100}
             fill="#8884d8"
             label
           />

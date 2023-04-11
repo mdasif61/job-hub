@@ -15,7 +15,7 @@ const Header = () => {
           }
           </span>
         </div>
-      <div className={`md:flex md:static absolute ${open?"top-7 bg-white shadow-xl p-5 z-50":"hidden"} w-[85%] top-0 justify-between py-3 bg-color mx-auto items-center`}>
+      <div className={`md:flex md:static absolute ${open?"top-7 bg-white shadow-xl p-5 z-50":"hidden"} md:w-[85%] w-full top-0 justify-between py-3 bg-color mx-auto items-center`}>
 
         <h1 className={`text-3xl font-bold ${open && "mb-3 border-b-2 pb-3"}`}>
           Intelligence<span className="text-orange-600">Hub</span>

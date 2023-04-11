@@ -9,10 +9,10 @@ const FeaturedJob = () => {
 
   return (
     <>
-      <h1 className="text-5xl text-center mb-4 font-bold mt-28">
+      <h1 className="md:text-5xl text-3xl text-center mb-4 font-bold mt-28">
         Featured Jobs
       </h1>
-      <p className="text-center mb-8 text-gray-500">
+      <p className="text-center md:text-base text-sm mb-8 text-gray-500">
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>

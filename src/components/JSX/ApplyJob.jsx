@@ -29,9 +29,9 @@ const ApplyJob = () => {
       <div>
         <Banner>Applied Jobs</Banner>
       </div>
-      <div className="w-7/12 mx-auto">
+      <div className="md:w-7/12 w-full mx-auto">
         {cart.map((singleCart) => (
-          <div className="flex my-5 items-center border p-5">
+          <div className="md:flex text-center md:text-left my-5 items-center border p-5">
             <div className=" flex items-center justify-center p-5">
               <img className="w-32" src={singleCart.icon} alt="" />
             </div>
@@ -42,7 +42,7 @@ const ApplyJob = () => {
               <h3 className="font-semibold my-2 text-gray-500">
                 {singleCart.tags}
               </h3>
-              <div className="flex my-3">
+              <div className="flex my-3 items-center justify-center md:justify-start">
                 <h3 className="mr-2 cursor-pointer text-purple-600 border px-3 py-1 rounded-md border-purple-500">
                   {singleCart.jobTime.fullTime}
                 </h3>
@@ -50,12 +50,12 @@ const ApplyJob = () => {
                   {singleCart.jobTime.onTime}
                 </h3>
               </div>
-              <div className="flex">
-                <div className="flex mr-5 items-center">
+              <div className="md:flex">
+                <div className="flex mr-5 my-2 items-center">
                   <img className="mr-2" src={singleCart.locationIcon} alt="" />
                   <p className="text-gray-500">{singleCart.location}</p>
                 </div>
-                <div className="flex mr-5 items-center">
+                <div className="flex mr-5 my-2 items-center">
                   <img className="mr-2" src={singleCart.salaryIcon} alt="" />
                   <p className="text-gray-500">{singleCart.salary}</p>
                 </div>

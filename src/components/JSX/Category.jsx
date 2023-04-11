@@ -10,12 +10,12 @@ const Category = () => {
 
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center">Job Category List</h1>
-      <p className="mt-5 text-gray-400 text-center">
+      <h1 className="md:text-5xl text-3xl font-bold text-center">Job Category List</h1>
+      <p className="mt-5 text-sm text-gray-400 text-center">
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="flex w-full justify-between my-20">
+      <div className="md:flex grid grid-cols-2 w-full justify-between my-20">
         {category.map((list) => (
           <div key={list.title}>
             <img
@@ -23,10 +23,10 @@ const Category = () => {
               src={list.image}
               alt=""
             />
-            <h1 className="text-xl font-bold text-gray-600 mt-7">
+            <h1 className="md:text-xl text-md font-bold text-gray-600 mt-7">
               {list.title}
             </h1>
-            <h1 className="text-gray-400 my-2">{list.subtitle}</h1>
+            <h1 className="text-gray-400 my-2 md:text-base text-sm">{list.subtitle}</h1>
           </div>
         ))}
       </div>
