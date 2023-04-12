@@ -13,10 +13,10 @@ const JobCart = ({ job}) => {
         <p className="text-xl mt-2 mb-4">{job.tags}</p>
         <div className="flex mb-4">
           <h1 className="text-purple-500 border mr-3 px-4 py-1 border-purple-500 rounded-md cursor-pointer">
-            {job.jobTime.fullTime}
+            {job.jobType}
           </h1>
           <h1 className="text-purple-500 border mr-3 px-4 py-1 border-purple-500 rounded-md cursor-pointer">
-            {job.jobTime.onTime}
+            {job.jobTime}
           </h1>
         </div>
         <div className="md:flex">

@@ -5,9 +5,10 @@ import Banner from "./Banner";
 
 const ApplyJob = () => {
   const [cart, setCart] = useState([]);
+  const [check,setCheck]=useState([]);
+
   const navigate = useNavigate();
   const showData = useLoaderData();
-
   useEffect(() => {
     const jobs = getJob();
     let newJob = [];
@@ -20,14 +21,16 @@ const ApplyJob = () => {
       }
     }
     setCart(newJob);
+    setCheck(newJob)
   }, []);
 
   const filter = (event) => {
-    const fullTime = cart.filter(
-      (fil) => fil.jobTime.fullTime == event.target.value
+    const jobTime = cart.filter(
+      (fil) => fil.jobTime == event.target.value
     );
-    setCart(fullTime);
+    setCheck(jobTime);
   };
+
 
   return (
     <div>
@@ -40,15 +43,14 @@ const ApplyJob = () => {
           className="w-32 focus:outline-none border p-2 font-semibold"
         >
           <option value="filter" disabled selected>
-            Filter
+            Filter By
           </option>
-          <option value="Fulltime">Fulltime</option>
           <option value="Remote">Remote</option>
           <option value="Onsite">Onsite</option>
         </select>
       </div>
       <div className="md:w-7/12 w-full mx-auto">
-        {cart.map((singleCart) => (
+        {check.map((singleCart) => (
           <div
             key={singleCart.id}
             className="md:flex text-center md:text-left my-5 items-center border p-5"
@@ -65,10 +67,10 @@ const ApplyJob = () => {
               </h3>
               <div className="flex my-3 items-center justify-center md:justify-start">
                 <h3 className="mr-2 cursor-pointer text-purple-600 border px-3 py-1 rounded-md border-purple-500">
-                  {singleCart.jobTime.fullTime}
+                  {singleCart.jobType}
                 </h3>
                 <h3 className="mr-2 cursor-pointer text-purple-600 border px-3 py-1 rounded-md border-purple-500">
-                  {singleCart.jobTime.onTime}
+                  {singleCart.jobTime}
                 </h3>
               </div>
               <div className="md:flex">
