@@ -1,6 +1,7 @@
 import React from "react";
 
 const Blog = () => {
+
   return (
     <div className="grid md:mt-[220px] mt-10 md:w-8/12 mx-auto md:grid-cols-3 grid-cols-1 gap-5">
       <div className="border-2 rounded-xl p-5">
